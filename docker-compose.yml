@@ -11,9 +11,3 @@ services:
       MYSQL_PASSWORD: develop
     ports:
       - 33306:3306
-
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8888:8080
