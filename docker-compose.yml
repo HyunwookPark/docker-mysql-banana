@@ -10,7 +10,7 @@ services:
       MYSQL_USER: develop
       MYSQL_PASSWORD: develop
     ports:
-      - 3306:3306
+      - 33306:3306
 
   adminer:
     image: adminer
